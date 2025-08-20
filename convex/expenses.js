@@ -43,9 +43,10 @@ export const createExpense = mutation({
     const totalSplitAmount = args.splits.reduce(
       (sum, split) => sum + split.amount,
       0
-    );
+    ); 
+
     const tolerance = 0.01; // Allow for small rounding errors
-    if (Math.abs(totalSplitAmount - args.amount) > tolerance) {
+    if (Math.abs(totalSplitAmount - args.amount) > tolerance) { 
       throw new Error("Split amounts must add up to the total expense amount");
     }
 
