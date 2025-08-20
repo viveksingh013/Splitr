@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import ExpenseForm from "./components/expense-form";
+import { ExpenseForm } from "./components/expense-form";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent } from "@/components/ui/card";
 
