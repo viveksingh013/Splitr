@@ -16,7 +16,7 @@ export const sendEmail = action({
 
     try {
       const result = await resend.emails.send({
-        from: "splitr <onboarding@resend.dev>",
+        from: "splitzy <onboarding@resend.dev>",
         to: args.to,
         subject: args.subject,
         html: args.html,

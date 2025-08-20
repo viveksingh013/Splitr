@@ -53,7 +53,7 @@ export default function LandingPage() {
             <Image
               src="/hero.png"
               width={1280}
-              height={720}
+              height={600}
               alt="Banner"
               className="rounded-lg mx-auto"
               priority
@@ -178,7 +178,7 @@ export default function LandingPage() {
 
       {/* ───── Footer ───── */}
       <footer className="border-t bg-gray-50 py-12 text-center text-sm text-muted-foreground">
-        © {new Date().getFullYear()} Splitr. All rights reserved.
+        © {new Date().getFullYear()} Splitzy. All rights reserved.
       </footer>
     </div>
   );

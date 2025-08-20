@@ -23,7 +23,7 @@ export default function Header() {
             src={"/logos/logo.png"}
             alt="Vehiql Logo"
             width={200}
-            height={60}
+            height={70}
             className="h-11 w-auto object-contain"
           />
         </Link>
